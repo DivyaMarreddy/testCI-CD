@@ -21,6 +21,4 @@ builder:
           description: deployment for maintenance notification
           package: ZFIORI_DEV
           transport: NWSK900090
-        credentials:
-           Username: env:XYZ_user
-           Password: env:XYZ_pwd
+       
