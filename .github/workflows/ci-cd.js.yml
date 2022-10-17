@@ -23,8 +23,8 @@ jobs:
       uses: actions/setup-node@v3
       with:
         type: bsp
-        user: ${{ secrets.ABAP_USER }}
-        password: ${{ secrets.ABAP_PASSWORD}}
+        Username: ${{ secrets.ABAP_USER }}
+        Password: ${{ secrets.ABAP_PASSWORD}}
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
