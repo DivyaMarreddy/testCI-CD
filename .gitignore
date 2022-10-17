@@ -1,6 +1,5 @@
 node_modules/
 dist/
-.env/
 .scp/
 Makefile*.mta
 mta_archives
