@@ -28,4 +28,5 @@ jobs:
     - run: npm install @ui5/cli
     - run: npm install @sap/ux-ui5-tooling@1.7.5
     # - run: npm run deploy
-    - run: yes | npm run deploy
+    # - run: yes | npm run deploy
+    - run: yes | Rasoni | Ravi1@#4 | npm run deploy
