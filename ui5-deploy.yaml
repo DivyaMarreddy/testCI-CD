@@ -24,5 +24,4 @@ builder:
           description: ci/cd deployment
           package: ZFIORI_DEV
           transport: NWSK900090
-          Username: env:UI5_USERNAME
-          Password: env:UI5_PASSWORD
+          
