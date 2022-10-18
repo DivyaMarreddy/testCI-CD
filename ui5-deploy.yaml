@@ -16,12 +16,12 @@ builder:
         target:
           destination: NWS-HANA
           url: http://awssapfmgapp1.fmgdev.local:44310
-          auth: basic
-          Username: env:UI5_USERNAME
-          Password: env:UI5_PASSWORD
         app:
           name: ZMAINT_NOTIF
           description: ci/cd deployment
           package: ZFIORI_DEV
           transport: NWSK900090
+        credentials:
+           username: env:XYZ_USER
+           password: env:XYZ_PASSWORD
           
