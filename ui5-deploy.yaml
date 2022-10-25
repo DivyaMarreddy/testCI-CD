@@ -21,7 +21,7 @@ builder:
           description: ci/cd deployment
           package: ZFIORI_DEV
           transport: NWSK900090
-        # credentials:
-        #    username: env:XYZ_USER
-        #    password: env:XYZ_PASSWORD
+        credentials:
+           username: env:XYZ_USER
+           password: env:XYZ_PASSWORD
           
